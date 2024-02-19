@@ -1,0 +1,26 @@
+body{
+    background-color: aqua;
+}
+/* ---- CSS Demo ---- */
+
+/*  ---------------Box Sizing-----------------  */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  
+  /*  --------------- Global Styles -----------------  */
+  
+  body{
+   font-family: "Anta", sans-serif;
+  }
+  
+  header.primary{
+background:red
+  }
