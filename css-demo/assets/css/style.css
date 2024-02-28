@@ -15,7 +15,22 @@ html {
     box-sizing: inherit;
   }
   
+  /*  --------------- Responsive Images -------------*/
+
+  img{
+    max-width:100%;
+  }
+
+
+
+  /*  --------------- Utility Classes --------------- */
   
+.container{
+  max-width: 960px;
+  width:80vw;
+  margin:40px auto;
+}
+
   /*  --------------- Global Styles -----------------  */
   
   body{
@@ -83,4 +98,103 @@ padding: 20px 40px;
 
    header.primary nav a:hover{
     background-color: rgba(0,0,0,.8);
+    }
+
+    #content h2{
+      color:yellow;
+      border-bottom:1px dotted white;
+    }
+
+
+   #content h3{
+    border-left: 7.5px solid gold;
+    padding:7.5px;
+   }
+
+  #blog{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    gap:2rem;
+  }
+
+  #blog .post{
+    box-shadow:0 4px 8px 
+    rgba(0,0,0,.6);
+    padding:10px;
+    border-radius:4px;
+    font-size:.8rem;
+    transition:.5s;
+  }
+
+  #blog figure{
+    margin:0;
+  }
+
+  #blog figcaption{
+    text-transform:uppercase;
+    font-size:.6rem;
+    text-align:center;
+    color:purple;
+  }
+
+  #blog header{
+    padding-top:10px;
+    font-size:.6rem;
+  }
+
+  #blog header h2{
+    margin:0;
+ }
+
+ #blog h2 a{
+  color: blueviolet;
+ }
+
+ #blog .post:hover{
+  box-shadow:0 8px 16px 
+  rgba(0,0,0,.6);
+}
+  
+
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    @media screen and (max-width:600px) {
+      header.primary ul {
+        flex-direction: column;
+        gap:20px;
+        max-width:250px;
+        margin:auto;
+       }
+
+      header.primary nav a {
+        display:block;
+
+      }
+      
+
+
+
+
+
+
     }
