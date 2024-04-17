@@ -96,7 +96,6 @@ header.primary h1 a {
 header.primary h2 {
   font-family: "Goldman", cursive;
   font-size: 2em;
-  /* Shorhand Three Value Top, Left/Right, Bottom*/
   margin: 20px auto 40px;
   position: relative;
 }
